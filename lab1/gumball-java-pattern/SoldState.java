@@ -8,11 +8,11 @@ public class SoldState implements State {
         this.gumballMachine = gumballMachine;
     }
        
-	public void insertQuarter() {
+	public void insertMoney(int cents) {
 		System.out.println("Please wait, we're already giving you a gumball");
 	}
  
-	public void ejectQuarter() {
+	public void ejectMoney() {
 		System.out.println("Sorry, you already turned the crank");
 	}
  
@@ -22,9 +22,11 @@ public class SoldState implements State {
  
 	public void dispense() {
 		gumballMachine.releaseBall();
+		gumballMachine.moneyInserted = 0;
 		if (gumballMachine.getCount() > 0) {
-			gumballMachine.setState(gumballMachine.getNoQuarterState());
-		} else {
+			gumballMachine.setState(gumballMachine.getNoCoinState());
+		}
+		else {
 			System.out.println("Oops, out of gumballs!");
 			gumballMachine.setState(gumballMachine.getSoldOutState());
 		}
