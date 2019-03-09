@@ -2,6 +2,7 @@
 
 ---
 
+
 **Class** 
 
 Customers
@@ -21,6 +22,8 @@ Reply to the message as "confirm" or "leave"
 Restaurant Manager
 
 ---
+
+
 
 **Class** 
 
@@ -48,6 +51,8 @@ Tables
 
 ---
 
+
+
 **Class** 
 
 Tables
@@ -65,6 +70,9 @@ Notify the restaurant manager about the availability
 **Collaborators**
 
 Restaurant Manager
+
+
+
 
 
 
