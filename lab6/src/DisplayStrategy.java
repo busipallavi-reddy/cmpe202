@@ -3,18 +3,21 @@ import java.util.List;
 public abstract class DisplayStrategy {
 
     public void topBunToppings(){
-        System.out.println("Top Topping 1");
-        System.out.println("Top Topping 2");
+        System.out.println("LETTUCE");
+        System.out.println("TOMATO");
     }
     public void onMeat(){
-        System.out.println("--> Meat Topping 1");
-        System.out.println("--> Meat Topping 2");
+        System.out.println("--> | G ONION");
+        System.out.println("--> | JALA GRILLED");
     }
     public void Meat(){
-        System.out.println("{{{  Meat  }}}");
+        System.out.println("{{{  Bacon  }}}");
     }
     public void Bill(){
-        System.out.println("$10.00");
+        System.out.println("Sub. Total      $8.38");
+    }
+    public void fries(){
+        System.out.println("LTL CAJ");
     }
     public void execute(){
         print();
