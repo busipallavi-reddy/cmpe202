@@ -8,4 +8,4 @@ Strategy Design Pattern is used to print the receipt in 2 forms, as a customer r
 
 Sample output:
 
-![]https://github.com/busipallavi-reddy/cmpe202/blob/master/lab6/output/Output.PNG
+![](https://github.com/busipallavi-reddy/cmpe202/blob/master/lab6/output/Output.PNG)
