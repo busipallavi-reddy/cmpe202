@@ -7,9 +7,21 @@
 
 Screen Shots attached:
 
-![]()
+1 Quarter Crank Model, Cost 25 cents
 
+![](https://github.com/busipallavi-reddy/cmpe202/blob/master/lab10/screenshots/1quarter-crank.png)
 
+2 Quarter Crank Model, Cost 50 cents
+
+![](https://github.com/busipallavi-reddy/cmpe202/blob/master/lab10/screenshots/2quarter-crank.png)
+
+Slot Model, Cost 25 cents
+
+![](https://github.com/busipallavi-reddy/cmpe202/blob/master/lab10/screenshots/slot25.png)
+
+Slot Model, Cost 50 cents
+
+![](https://github.com/busipallavi-reddy/cmpe202/blob/master/lab10/screenshots/slot50.png)
 
 
 
